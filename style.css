@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&family=Sixtyfour&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #201f20;
+  min-height: 80vh;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: "Inter", sans-serif;
+  color: rgb(228, 226, 226);
+}
+
+
+/* Links */
+
+/* tooltipe text  */
+
+/* NAO SE ESQUEÇA DE COMPLETAR SLK !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* Button contact */
+
+.button:hover {
+  background-color: #9fa1a0;
+  box-shadow: 0px 15px 20px rgba(31, 31, 31, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+
+  /* my img  */
+  .eu {
+    margin-top: 32px;
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .myname {
+    color: white !important;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .mytitle {
+    text-align: center;
+    color: gray;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  /* Button contact */
+  .wrap {
+    height: 0;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+  }
+
+  .wrap h4 {
+    margin: 10px;
+  }
+
+  .button {
+    width: 140px;
+    height: 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  /* Links */
+  .iconsconteiner {
+    position: absolute;
+    display: flex;
+    margin-top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .iconsconteiner a img {
+    margin: 4px;
+    width: 40px;
+    filter: invert(60%);
+  }
+
+  .iconsconteiner a:hover {
+    opacity: 0.5;
+  }
+
+  .contratation {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    text-align: center;
+  }
